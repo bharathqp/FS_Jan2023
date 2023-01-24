@@ -8,8 +8,7 @@
 		<meta name='viewport', content='width=device-width, initial-scale=1.0'>
 	</head>
 	<body>
-		<form>
-			<input type='text' name='first_name' placeholder='First Name'  value=''   /><br>
+			<!-- <input type='text' name='first_name' placeholder='First Name'  value=''   /><br>
 			<input type='email' name='EMAIL' placeholder='email'     /><br>
 			<input type='password' name='password' placeholder='password'     /><br>
 			<input type='date' name='dob' placeholder='First Name'     /><br>
@@ -30,6 +29,76 @@
 			</select>
 		
 		
+		
+		<h5>Gender</h5>
+		<input id='male' type='radio' name='Gender' value='male' />
+		<label for='male'>Male</label><br>
+		
+		<input id='female' type='radio' name='Gender' value='female'   />
+		<label for='female'>Female</label><br>
+		
+		<h5>Skills</h5>
+		<input id='skill_html' type='checkbox' name='skill[]' value='html' />
+		<label for='skill_html'>HTML</label><br>
+		
+		<input id='skill_css' type='checkbox' name='skill[]' value='css'   />
+		<label for='skill_css'>CSS</label><br>
+		
+		<input id='skill_js' type='checkbox' name='skill[]' value='javascript'   />
+		<label for='skill_js'>JS</label><br>
+		
+		<input id='skill_mongo' type='checkbox' name='skill[]' value='mongodb'   />
+		<label for='skill_mongo'>Mongo</label><br>
+		
+		<input type='hidden' name='page_name' value='registration'   /><br> -->
+		
+		
+		
+		<form method='post'>
+
+<!-- 			<input type='text' name='user_info' value='student' disabled /><br>
+			<input type='text' name='name' placeholder='Enter your Name' maxlength='5' required /><br>
+			<input type='email' name='EMAIL' placeholder='email' required /><br>
+			
+			<label for='age'>Age</label><br>
+			<input type='range' id='age' name='age' placeholder='age' required min='10' max='18'/><br>
+
+			<label for='percentage'>Percentage</label><br>
+			<input type='number' id='percentage' name='percentage' 
+			placeholder='percentage' required min='10' max='18'/><br>
+			
+			
+			<label for='percentage'>Resume</label><br>
+			<input type='file' name='resume' multiple /><br>
+			
+			
+			<input type='text' name='student_code' placeholder='student code' pattern="\d{2}[A-Z]{4}[a-z]{3}"
+				title='Enter only Capital letters OF SIZE 4'
+			/><br>
+			<input type='number' id='percentage' name='percentage' 
+			placeholder='percentage' required min='10' max='18' step='2'<br>
+			
+ -->
+
+			<input type='text' list='skillset' id='skills' name='skills' />
+				<datalist id='skillset'>
+					<option value='C'>
+					<option value='C++'>
+					<option value='CPP'>
+				</datalist>
+
+
+
+
+
+
+
+
+
+			
+
+			<input type='submit' value='Submit' /><br>
+
 		</form>
 	</body>
 </html>
