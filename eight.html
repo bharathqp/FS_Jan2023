@@ -51,12 +51,24 @@
 		<label for='skill_mongo'>Mongo</label><br>
 		
 		<input type='hidden' name='page_name' value='registration'   /><br> -->
-		
-		
+		<!-- 
+						<datalist id='skillset'>
+					<option value='C'>
+					<option value='C++'>
+					<option value='CPP'>
+				</datalist>
+				
+				
+				
+						<datalist id='users'>
+					<option value='C'>
+					<option value='C++'>
+					<option value='CPP'>
+				</datalist>
 		
 		<form method='post'>
 
-<!-- 			<input type='text' name='user_info' value='student' disabled /><br>
+			<input type='text' name='user_info' value='student' disabled /><br>
 			<input type='text' name='name' placeholder='Enter your Name' maxlength='5' required /><br>
 			<input type='email' name='EMAIL' placeholder='email' required /><br>
 			
@@ -75,28 +87,22 @@
 			<input type='text' name='student_code' placeholder='student code' pattern="\d{2}[A-Z]{4}[a-z]{3}"
 				title='Enter only Capital letters OF SIZE 4'
 			/><br>
-			<input type='number' id='percentage' name='percentage' 
-			placeholder='percentage' required min='10' max='18' step='2'<br>
 			
- -->
 
 			<input type='text' list='skillset' id='skills' name='skills' />
-				<datalist id='skillset'>
-					<option value='C'>
-					<option value='C++'>
-					<option value='CPP'>
-				</datalist>
+			 -->
 
 
 
-
-
-
-
-
-
+		<form method='post' enctype='multipart'>
+			<label for='abc'>Upload your image *</label><br>
+			<input type='file' id='name' required accept='image/*' multiple /><br>
+			<input type='file' id='name' required accept='image/*' /><br>
+			<input type='file' id='name' required accept='image/*' /><br>
+			<input type='file' id='abc' required accept='image/*' /><br>
+			<input type='file' id='xyz' required accept='image/*' /><br>
+			<input type='file' id='def' required accept='image/*' /><br>
 			
-
 			<input type='submit' value='Submit' /><br>
 
 		</form>
