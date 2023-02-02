@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<title> HTML Tutorial </title>
+		<meta charset='utf8'>
+		<meta name='descrption', content='This e commerce website.....'>
+		<meta name='keywords', content='Phone, Laptops'>
+		<meta name='viewport', content='width=device-width, initial-scale=1.0'>
+		
+		
+		
+		<style>
+		
+			[class*='anchor'] {
+				background-color:red;
+			}
+		
+		
+		
+			/*div{
+				width:100px;
+				height:100px;
+				position:relative;
+				background-color:red;
+				animation: move_div 5s infinite;
+								
+			}
+			
+			
+			
+			@keyframes move_div {
+				0% {left:0px; top:0px;}
+				25% {left:600px; top:0px;}
+				50% {left:0px; top:600px;}
+				75% {left:600px; top:600px;}
+				100% {left:0px; top:0px;}
+			}*/
+		
+		
+		
+		.uppper_list li {
+					position:relative;
+					display:inline-block;
+					color:red;
+					top:0px;
+		}
+			
+			
+			
+			
+			
+		.lower_data{
+					display:none;
+					position:absolute;
+		}
+		
+		.lower_list:hover .lower_data{
+					display:block;
+					color:green;
+		}
+		
+		
+		</style>
+		
+		
+		
+	</head>
+	<body>
+			<!-- <div class='inline_anchor_tag'>Same Page</div> <br>
+			<div class='inline_tag'>Google </div><br>
+			<div class='anchor_tag'>LinkedIn</div><br>
+			
+			<p class='inline_tag'>Same Page</p> <br>
+			<p class='anchor_tag'>Google </p><br>
+			<p class='inline_tag'>LinkedIn</p><br> -->
+			
+			
+		
+		
+			<ul class='uppper_list'>
+				<li> Home </li>
+				<li> About </li>
+				<li class='lower_list'> Contact
+					<ul class='lower_data'> 
+						<li>Email </li>
+						<li>Phone </li>
+					<ul>
+				</li>				
+			</ul>
+		
+		
+			
+	</body>
+</html>

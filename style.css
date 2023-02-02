@@ -10,6 +10,17 @@ body{
 }
 
 
+div{
+	height: 300px;
+	width:300px;
+	box-shadow: 10px 10px;
+	background-color:red;
+}
+
+
+
+/* /* 
+
 
 .div-1 {
 	padding: 20px 10px;
@@ -92,7 +103,6 @@ p{
 }
 
 
-*/
 
 div :nth-child(5){
 	background-color:red;
@@ -118,4 +128,4 @@ p::first-line {
   text-transform: uppercase;
 }
 
-
+ */
