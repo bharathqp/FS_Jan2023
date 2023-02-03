@@ -9,10 +9,7 @@ let output = multplier * base * height
 let some_float  = -12.345
 
 console.log(some_float)
-
 console.log(Math.round(some_float))
 console.log(Math.ceil(some_float))
 console.log(Math.floor(some_float))
-
-
 console.log(Math.abs(some_float))
