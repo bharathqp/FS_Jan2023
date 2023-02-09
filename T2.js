@@ -97,7 +97,7 @@ console.log(output)
 
 // replacing 
 output = str7.replace('total', 'sum')
-*/
+
 
 str7 = 'something'
 
@@ -110,23 +110,41 @@ console.log(output)
 
 
 
+country = prompt("Please enter your country name")
+
+ str8 = country + ": " + country + " police officers say they have been  in their battle against \"rising\" militancy after a blast at a city headquarters killed dozens of their colleagues"
 
 
 
 
+str8 = `${country}: ${country} police officers say they have been  in their battle against \"rising\" militancy after a blast at a city headquarters killed dozens of their colleagues`
+
+
+
+console.log(str8)
 
 
 
 
+ 
+
+//Undefined Data Type
+
+let x
+console.log(x)
+
+
+
+// null
+
+let x = null
+console.log(x)
 
 
 
 
+ 
+let y = true
+console.log(y)
 
-
-
-
-
-
-
-
+ */
