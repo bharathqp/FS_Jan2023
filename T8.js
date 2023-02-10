@@ -8,10 +8,14 @@
 
 
 
-let i = 1
+// let i = 1
 
-do {
-	console.log("loading................")
-	i++
-}
-while(i<5)
+// do {
+// 	console.log("loading................")
+// 	i++
+
+// }
+// while(i<5)
+
+
+break
