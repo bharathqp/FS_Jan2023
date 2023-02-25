@@ -41,3 +41,10 @@ let p1 = calc_perimeter_2(plane2)
 let p2 = calc_perimeter(plane2)
 
 console.log(p1, p2)
+
+
+
+x = (...args) => {}
+
+
+x(10, 20, 3, a, c, sd, d, )

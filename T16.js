@@ -11,7 +11,7 @@ let y2 = ['Dispur', 'Patna', 'Panaji', 'Mumbai', 'Bangalore', 'Hyderabad']
 let y1_set = new Set(y1)
 let y2_set = new Set(y2)
 
-let Y3 = y1.filter((el) => !y2_set.has(el))
+let Y3 = y1.filter((el) => y2_set.has(el))
 let Y4 = y2.filter((el) => !y1_set.has(el))
 
 //console.log(Y3)
