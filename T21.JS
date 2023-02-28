@@ -56,7 +56,7 @@ Measures were also meant to blacklist more individuals including what the West s
 
 The package was also designed to cut off more banks including the private Alfa-Bank and the online bank Tinkoff from the global system SWIFT and cut trade between the EU and Russia by more than 10 billion euros, according to the bloc's executive.
 
-info@qprofiles.com`
+info@qprofiles.com` black-list
 
 
 
@@ -66,10 +66,6 @@ info@qprofiles.com`
 let pattern = /([a-z]+|[A-Z]+)\@\w+\.\w+/g
 
 console.log(news.match(pattern))
-
-
-
-
 
 
 
