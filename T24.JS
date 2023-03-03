@@ -12,7 +12,6 @@
 	let x = document.querySelector('#div-1')
 	let x = document.querySelectorAll('.red')
 
-*/
 
 	let data = `[{"id":1,
 	"title":"Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
@@ -65,3 +64,157 @@
 	let y = document.querySelectorAll('h1')
 
 	y[0].style.backgroundColor = 'green'
+
+
+let root = document.getElementById('root')
+
+
+let news_heading = document.createElement('h1')
+news_heading.style.textAlign = 'center'
+news_heading.textContent = "This is news heading"
+
+let news_heading2 = document.createElement('h1')
+news_heading2.style.textAlign = 'center'
+news_heading2.textContent = "This is news heading2"
+
+root.appendChild(news_heading)
+root.removeChild(news_heading2)
+
+
+
+function create_element(){
+	let root = document.getElementById('root')
+	let news_heading = document.createElement('h1')
+	news_heading.style.textAlign = 'center'
+	news_heading.textContent = "This is news heading"
+	root.appendChild(news_heading)
+}
+
+
+function toggle_like(){
+	let heart_icon = document.querySelector('.fa-heart')
+	let text_danger = false
+	
+
+	for (let cls of heart_icon.classList)
+	{
+		if ('text-danger' == cls)
+		{
+			text_danger = true
+			break;
+		}
+	}
+
+	if (text_danger){
+		heart_icon.classList.remove('text-danger')
+	}
+	else{
+		heart_icon.classList.add('text-danger')
+	}
+}
+
+
+
+
+
+
+let selectedElement = document.getElementById('heart-icon')
+selectedElement.addEventListener('click', (e) => {toggle_like();})
+
+
+
+let input1 = document.getElementById('full_name')
+input1.addEventListener('blur', (e) => {console.log(e.target.value)})
+
+*/
+
+
+function validateEmail(){
+	let email = document.getElementById('email')
+
+	if (email.value.includes('@'))
+	{
+		return true
+	}
+	else{
+		return false	
+	}
+}
+
+
+
+let submit = document.getElementById('submit-btn')
+submit.addEventListener('click', (e) => {
+
+	let output = validateEmail();
+	let err_p = document.getElementById('show_error')
+
+	if (!output)
+	{
+		err_p.classList.remove('text-success')
+		err_p.classList.add('text-danger')
+		err_p.innerHTML = "Invalid email id!!"	
+
+	}
+	else{
+		err_p.classList.remove('text-danger')
+		err_p.classList.add('text-success')
+
+		err_p.innerHTML = "You have given the correct information"
+	}
+})
+
+
+
+
+
+
+
+
+
+
+// click
+// dblclicl
+// mouseenter
+// mouseleave
+// mouseover
+// mouseout
+// input
+// change
+// blur
+// keydown
+// keyup
+// keypress
+// onload
+// checked
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
