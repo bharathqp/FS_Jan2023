@@ -145,21 +145,17 @@ function validateEmail(){
 
 let submit = document.getElementById('submit-btn')
 submit.addEventListener('click', (e) => {
-
 	let output = validateEmail();
 	let err_p = document.getElementById('show_error')
-
 	if (!output)
 	{
 		err_p.classList.remove('text-success')
 		err_p.classList.add('text-danger')
-		err_p.innerHTML = "Invalid email id!!"	
-
+		err_p.innerHTML = "Invalid email id!!"
 	}
 	else{
 		err_p.classList.remove('text-danger')
 		err_p.classList.add('text-success')
-
 		err_p.innerHTML = "You have given the correct information"
 	}
 })
