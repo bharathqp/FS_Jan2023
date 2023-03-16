@@ -36,25 +36,26 @@
 // }, {captrue:true})
 
 
-function factorial(x) 
-{ 
-  if (x === 0)
- {
-    return 1;
- }
-  return x * factorial(x-1);
-}
+// function factorial(x) 
+// { 
+//   if (x === 0)
+//  {
+//     return 1;
+//  }
+//   return x * factorial(x-1);
+// }
 
 
-	// 5
-	// 	5 * factorial(5-1)							5 * 24 = 120  
-	// 			4 * factorial(4-1)					4 * 6 = 24  
-	// 				3 * factorial(3-1)				3 * 2 = 6  
-	// 					2 * factorial(2-1)		    2 * 1 = 2  
-	// 						1 * factorial(1-1)	    1 * 1 = 1    
-	// 							1 					1
+// 	// 5
+// 	// 	5 * factorial(5-1)							5 * 24 = 120  
+// 	// 			4 * factorial(4-1)					4 * 6 = 24  
+// 	// 				3 * factorial(3-1)				3 * 2 = 6  
+// 	// 					2 * factorial(2-1)		    2 * 1 = 2  
+// 	// 						1 * factorial(1-1)	    1 * 1 = 1    
+// 	// 							1 					1
 
 
-console.log(factorial(5));
+// console.log(factorial(5));
 
-
+// btn = document.getElementById('btn')
+// btn.addEventListener('dblclick', function() {console.log(window)})
