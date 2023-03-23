@@ -1,0 +1,22 @@
+/post/			GET		==> Read/Fetch Info 
+/post/123		GET/	==> Read/Fetch Info of particular Data
+
+
+/inset-post/	POST	==> 
+						Create some docoument/row on the db server
+
+
+
+/update/123		PUT	==> 
+						Update some docoument/row on the db server
+
+
+
+
+/trash/123		DELETE/121
+					==> 
+						DELTE some docoument/row on the db server
+
+
+REST ==> Representation Transfer State
+

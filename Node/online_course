@@ -1,0 +1,21 @@
+online_course
+
+SELECT t1.email,
+       t1.first_name,
+	   t1.last_name, 
+       t2.mobile_number
+FROM public.auth_user as t1
+JOIN public.user_profiles_profile as t2
+ON t2.user_id=t1.id
+where t1.id in (SELECT canidate_id 
+FROM public.home_all_transaction 
+INNER JOIN public.home_all_online_invoice 
+ON public.home_all_online_invoice.transaction_id=public.home_all_transaction.id
+WHERE public.home_all_transaction.product_list LIKE '%5%' and public.home_all_transaction.product_list LIKE '%online%')
+
+
+SELECT candidate_id 
+FROM public.home_all_transaction 
+INNER JOIN public.home_all_online_invoice 
+ON public.home_all_online_invoice.transaction_id=public.home_all_transaction.id
+WHERE public.home_all_transaction.product_list LIKE %online% 
