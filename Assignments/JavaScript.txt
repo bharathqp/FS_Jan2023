@@ -1,0 +1,200 @@
+QUESTION
+ What are the different data types present in javascript?
+Explain Hoisting in javascript.
+Difference between “ == “ and “ === “ operators.
+ Explain Implicit Type Coercion in javascript.
+Is javascript a statically typed or a dynamically typed language?
+What is NaN property in JavaScript?
+Explain passed by value and passed by reference.
+What is an Immediately Invoked Function in JavaScript?
+ Explain Higher Order Functions in javascript.
+ Explain “this” keyword.
+ Explain call(), apply() and, bind() methods.
+What is currying in JavaScript?
+ Explain Scope and Scope Chain in javascript.
+Explain Closures in JavaScript.
+ What are object prototypes?
+What are callbacks?
+What is memoization?
+What is recursion in a programming language?
+ What is the use of a constructor function in javascript?
+ What is DOM?
+What are arrow functions?
+What is the rest parameter and spread operator?
+ What is the use of promises in javascript?
+What are classes in javascript?
+What are generator functions?
+Explain WeakSet in javascript.
+ Explain WeakMap in javascript.
+What is Object Destructuring?
+What is a Temporal Dead Zone?
+What are the possible ways to create objects in JavaScript
+What is a prototype chain
+What is JSON and its common operations
+What is the purpose of the array slice method
+What is the purpose of the array splice method
+How do you compare Object and Map
+What is the difference between == and === operators
+What are lambda or arrow functions
+What is a first class function
+What is a first order function
+What is a higher order function
+What is a unary function
+What is the currying function
+What is a pure function
+What is the purpose of the let keyword
+What is the reason to choose the name let as a keyword
+How do you redeclare variables in switch block without an error
+How do you decode or encode a URL in JavaScript?
+What is memoization
+What is Hoisting
+What are classes in ES6
+What are closures
+What are modules
+Why do you need modules
+What is scope in javascript
+What is a service worker
+How do you manipulate DOM using a service worker
+How do you reuse information across service worker restarts
+What is IndexedDB
+What is web storage
+What is a post message
+What is a Cookie
+Why do you need a Cookie
+What are the options in a cookie
+How do you delete a cookie
+What is the main difference between localStorage and sessionStorage
+How do you access web storage
+What are the methods available on session storage
+What is a storage event and its event handler
+Why do you need web storage
+How do you check web storage browser support
+How do you check web workers browser support
+Give an example of a web worker
+What are the restrictions of web workers on DOM
+What is a promise
+Why do you need a promise
+What are the three states of promise
+What is a callback function
+Why do we need callbacks
+What is a callback hell
+What are server-sent events
+How do you receive server-sent event notifications
+How do you check browser support for server-sent events
+What are the main rules of promise
+What is callback in callback
+What is promise chaining
+What is promise.all
+What is the purpose of the race method in promise
+What is a strict mode in javascript
+Why do you need strict mode
+How do you declare strict mode
+What is the purpose of double exclamation
+What is the purpose of the delete operator
+What is the typeof operator
+What is undefined property
+What is null value
+What is eval
+How do you access history in javascript
+How do you detect caps lock key turned on or not
+What is isNaN
+What are global variables
+What are the problems with global variables
+What is NaN property
+What is the purpose of isFinite function
+What is an event flow
+What is event bubbling
+What is event capturing
+How do you submit a form using JavaScript
+How do you find operating system details
+What is the difference between document load and DOMContentLoaded events
+What is the difference between native, host and user objects
+What are the tools or techniques used for debugging JavaScript code
+What are the pros and cons of promises over callbacks
+What is the difference between an attribute and a property
+What is same-origin policy
+What is the purpose of void 0
+Is JavaScript a compiled or interpreted language
+Is JavaScript a case-sensitive language
+Is there any relation between Java and JavaScript
+What are events
+Who created javascript
+What is the use of preventDefault method
+What is the use of stopPropagation method
+What are the steps involved in return false usage
+What is BOM
+What is the use of setTimeout
+What is the use of setInterval
+Why is JavaScript treated as Single threaded
+What is an event delegation
+What is ECMAScript
+What is JSON
+What are the syntax rules of JSON
+What is the purpose JSON stringify
+How do you parse JSON string
+Why do you need JSON
+What are PWAs
+What is the purpose of clearTimeout method
+What is the purpose of clearInterval method
+How do you redirect new page in javascript
+How do you check whether a string contains a substring
+How do you validate an email in javascript
+How do you get the current url with javascript
+What are the various url properties of location object
+How do get query string values in javascript
+How do you check if a key exists in an object
+How do you loop through or enumerate javascript object
+How do you test for an empty object
+What is an arguments object
+How do you make first letter of the string in an uppercase
+What are the pros and cons of for loop
+How do you display the current date in javascript
+How do you compare two date objects
+How do you check if a string starts with another string
+How do you trim a string in javascript
+How do you add a key value pair in javascript
+Is the !-- notation represents a special operator
+How do you assign default values to variables
+How do you define multiline strings
+What is an app shell model
+Can we define properties for functions
+What is the way to find the number of parameters expected by a function
+What is a polyfill
+What are break and continue statements
+What are js labels
+What are the benefits of keeping declarations at the top
+What are the benefits of initializing variables
+What are the recommendations to create new object
+How do you define JSON arrays
+How do you generate random integers
+Can you write a random integers function to print integers with in a range
+What is tree shaking
+What is the need of tree shaking
+Is it recommended to use eval
+What is a Regular Expression
+What are the string methods available in Regular expression
+What are regular expression patterns
+What is a RegExp object
+How do you search a string for a pattern
+What is the purpose of exec method
+How do you change the style of a HTML element
+What would be the result of 1+2+'3'
+What is a debugger statement
+What is the purpose of breakpoints in debugging
+Can I use reserved words as identifiers
+How do you detect a mobile browser
+How do you detect a mobile browser without regexp
+How do you get the image width and height using JS
+How do you make synchronous HTTP request
+How do you make asynchronous HTTP request
+How do you convert date to another timezone in javascript
+What are the properties used to get size of window
+What is a conditional operator in javascript
+Can you apply chaining on conditional operator
+What are the ways to execute javascript after page load
+What is the difference between proto and prototype
+Give an example where do you really need semicolon
+What is a freeze method
+What is the purpose of freeze method? Why do I need to use freeze method
+How do you detect a browser language preference
+How to convert string to title case with javascript

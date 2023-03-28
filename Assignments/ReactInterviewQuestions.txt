@@ -1,0 +1,52 @@
+What is React?
+What are the major features of React?
+What is JSX?
+What is the difference between Element and Component?
+How to create components in React?
+What is state in React?
+What are props in React?
+What is the difference between state and props?
+What is the purpose of callback function as an argument of setState()?
+What is the difference between HTML and React event handling?
+How to pass a parameter to an event handler or callback?
+What is "key" prop and what is the benefit of using it in arrays of elements?
+What is the use of refs?
+How to create refs?
+What is Virtual DOM?
+How Virtual DOM works?
+What is the difference between Shadow DOM and Virtual DOM?
+What are the lifecycle methods of React?
+What is the purpose of using super constructor with props argument?
+What would be the common mistake of function being called every time the component renders?
+Why React uses className over class attribute?
+What are the advantages of React?
+What are the limitations of React?
+How to apply validation on props in React?
+What is the use of react-dom package?
+What is the purpose of render method of react-dom?
+What is ReactDOMServer?
+How to use innerHTML in React?
+How to use styles in React?
+What is the impact of indexes as keys?
+What will happen if you use props in initial state?
+How do you conditionally render components?
+Why we need to be careful when spreading props on DOM elements?
+What is the lifecycle methods order in mounting?
+What is the recommended way for naming components?
+What is the recommended ordering of methods in component class?
+What is a switching component?
+What is strict mode in React?
+How to loop inside JSX?
+How to update a component every second?
+How to pretty print JSON with React?
+Why you can't update props in React?
+How to focus an input element on page load?
+What are the possible ways of updating objects in state?
+How to import and export components using React and ES6?
+Why is a component constructor called only once?
+How to define constants in React?
+What are the common folder structures for React?
+What are the popular packages for animation?
+What is the benefit of styles modules?
+What are render props?
+What is React Router?

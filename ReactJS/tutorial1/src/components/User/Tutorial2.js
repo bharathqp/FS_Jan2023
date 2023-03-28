@@ -92,9 +92,6 @@ let Cars = (props) => {
         </>
     )
 }
-
-
-
  
  let Footer = () => {
     return (<div className="row bg-danger text-light">
@@ -102,17 +99,8 @@ let Cars = (props) => {
             </div>
     )
 }
- 
 
-
-
-
-
-
-
-
- 
- let Tutorial2 = () => {
+let Tutorial2 = () => {
    return ( <>  
                 <Header/>
                 <Content/>
